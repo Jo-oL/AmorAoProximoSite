@@ -80,7 +80,7 @@
 
 .quadro {
   
-
+    -moz-zoom: 125%;
     zoom: 125%;
     overflow: hidden;
     display: flex;
