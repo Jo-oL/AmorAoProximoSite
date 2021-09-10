@@ -14,7 +14,7 @@ SECRET_KEY = 'DevelopmentSecretKey'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thawing-wave-76098.herokuapp.com']
+ALLOWED_HOSTS = ['thawing-wave-76098.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
