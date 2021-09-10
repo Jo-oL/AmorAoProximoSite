@@ -66,11 +66,12 @@
     padding-top: 1.5rem;
     -webkit-overflow-scrolling: x mandatory;
     transition: 300ms;
+
 }
 
 
 .cont {
-
+    
     display: flex;
     width: 300vw;
     overflow: hidden;
@@ -80,7 +81,7 @@
 .quadro {
   
 
-
+    zoom: 125%;
     overflow: hidden;
     display: flex;
     align-items: center;
