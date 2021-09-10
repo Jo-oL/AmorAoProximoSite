@@ -1,0 +1,85 @@
+header {
+    background-color: transparent;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.6rem 5%;
+    position: fixed;
+    z-index: 5;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+nav {
+    padding-left: 15vw;
+}
+
+#logo-container {
+    background: var(--background-one);
+    width: 6rem;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-items {
+    list-style: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.nav-items li {
+    display: inline-block;
+    border-right: 1px solid var(--text-black);
+    padding: 0 3rem;
+}
+
+.nav-items li a {
+    transition: all 0.3s ease 0s;
+    color: var(--text-black);
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.nav-items li a:hover {
+    color: var(--secondary-hover);
+}
+
+.nav-items li:last-child {
+    border-right:0;
+}
+
+#nav-doe {
+    width: 8rem;
+    height: 2.5rem;
+    background: var(--secondary);
+    box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2.62rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 3.5rem;
+
+    transition: 500ms;
+}
+
+#nav-doe:hover {
+    cursor: pointer;
+    background-color: var(--secondary-hover);
+}

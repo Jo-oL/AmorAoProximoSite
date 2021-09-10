@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --section-left-margin: 4rem;
+
+    --app-white: #edf0f1;
+    --app-black: #333333;
+    --app-light-gray: #eeeded;
+
+    --background-one: #F2E6D8;
+    --background-two: #FFF5D9;
+
+    --primary: #2EAD95;
+    --primary-hover: #108C75;
+    --secondary: #E83E32;
+    --secondary-hover: #BF3329;
+    --text-black: #333333;
+    --text-gray: rgb(80, 80, 80);
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    overflow-y: overlay;
+    overflow-x: hidden;
+    width: 100vw;
+    background: var(--background-one);
+}
+
+li, a, button {
+    font-size: 1rem;
+    color: var(--app-white);
+    text-decoration: none;
+}
+
+footer {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-45%);
+    display: flex;
+    overflow: hidden;
+}
+
+footer img {
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+footer .footer-content {
+    position: absolute;
+    color: var(--app-white);
+    top: 40%;
+    width: 100%;
+    height: 55%;
+    padding: 1rem var(--section-left-margin);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .footer-content .ong-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer-content .ong-info p {
+    margin-bottom: 0.125rem;
+}
+
+footer .footer-content .cj3t-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+footer .footer-content .cj3t-container img{
+    width: 3rem;
+    height: auto;
+    align-self: center;
+    margin-bottom: 0.125rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

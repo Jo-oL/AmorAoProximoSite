@@ -1,0 +1,818 @@
+#landing {
+    background-color: var(--background-one);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#landing .landing-content {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-left: var(--section-left-margin);
+}
+
+#landing img {
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 85%;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#landing .landing-content-items h3 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    font-style: normal;
+}
+
+#landing .landing-content-items a {
+    width: 15rem;
+    height: 3.5rem;
+    background: var(--secondary);
+    border-radius: 2.62rem;
+    box-shadow: -4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    transition: 500ms;
+}
+
+#landing .landing-content-items a:hover {
+    cursor: pointer;
+    background-color: var(--secondary-hover);
+}
+
+#landing .call-to-donation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#history {
+    background: var(--background-two);
+    width: 300vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory; 
+    padding-top: 1.5rem;
+    -webkit-overflow-scrolling: x mandatory;
+    transition: 300ms;
+}
+
+
+.cont {
+    display: flex;
+    width: 300vw;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.quadro {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.quadro .prev {
+    margin-left: 2rem;
+}
+
+.quadro .next {
+    margin-right: 2rem;
+}
+
+.q1 .history-left {
+    width: 50vw;
+    height: 95%;
+    display: inline-block;
+    flex-direction: column;
+    
+}
+
+.q1 .history-left h3 {
+    flex: 1;
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: center;
+    margin-top: 2rem;
+    margin-left: var(--section-left-margin);
+}
+
+.q1 .history-left img {
+    max-width: 95%;
+    height: 90%;
+    justify-self: flex-end;
+}
+
+.q1 .history-right {
+    flex:1;
+    width: 45vw;
+    height: 100%;
+    padding: 2rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.q1 .history-right h4 {
+    color: var(--text-black);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.q1 .history-right p {
+    width: 85%;
+}
+
+.q2{
+    width: 100vw;
+    padding-bottom: 2rem;
+}
+
+.q2 .image1 h3{
+    flex: 1;
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: center;
+    margin-top: 2rem;
+    margin-left: var(--section-left-margin);
+}
+
+.q2 .card-image1{
+    background-color: var(--background-one);
+    border-radius: 0.8rem;
+    width: 18rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1.6rem;
+    margin-left: 3rem;
+    
+}
+
+.q2 .card-image1 p, h5{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.q2 .image2{
+    margin-top: 0rem;
+}
+
+.q2 .card-image2{
+    background-color: var(--background-one);
+    border-radius: 0.8rem;
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    padding-left: 2;
+}
+.q2 .card-image2 img{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.q2 .image3{
+    flex: 1;
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 1rem;
+    justify-self: center;
+    margin-top: -2rem;
+}
+
+.q2 .card-image3{
+    background-color: var(--background-one);
+    border-radius: 0.8rem;
+    width: 25rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.q2 .card-image3 img{
+    margin-bottom: 1rem;
+    
+}
+
+.q3{
+    width: 100vw;
+}
+
+.q3 .image4 h3{
+    flex: 1;
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: center;
+    margin-top: -3rem;
+    margin-left: var(--section-left-margin);
+    margin-bottom: 1rem;
+}
+
+.q3 .card-image4{
+    background-color: var(--background-one);
+    border-radius: 0.8rem;
+    width: 18rem;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 3rem;
+    
+}
+
+.q3 .card-image4 p, h5{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.q3 .image5{
+    margin-top: 0;
+}
+
+.q3 .card-image5{
+    background-color: var(--background-one);
+    border-radius: 0.8rem;
+    width: 27rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+
+}
+
+.q3 .card-image5 img{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.q3 .image6{
+    flex: 1;
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 1rem;
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+.q3 .card-image6{
+    background-color: var(--background-one);
+    border-radius: 0.8rem;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.q3 .card-image6 img{
+    margin-bottom: 1rem;
+    
+}
+
+
+#donations {
+    background-color: var(--background-one);
+    width: 100vw;
+    height: 260vh;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#donations .infographic-container {
+    background-color: rgb(252, 252, 252);
+    width: 90%;
+    height: 35%;
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+    display: flex;
+}
+
+#donations .infographic-container .inf-left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--text-black);
+}
+
+#donations .infographic-container .inf-left .title h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#donations .infographic-container .inf-left .title span {
+    margin-top: 0.5rem;
+    display: inline-block;
+    max-width: 70%;
+    font-size: 1rem;
+    color: var(--text-gray);
+}
+
+#donations .infographic-container .inf-left .donation {
+    display: flex;
+    flex-direction: column;
+}
+
+#donations .infographic-container .inf-left .donation span {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+#donations .infographic-container .inf-left .input-group {
+    background-color: var(--app-light-gray);
+    height: 2.5rem;
+    width: 98%;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#donations .infographic-container .inf-left .input-group span {
+    color: var(--app-black);
+    margin-right: 0.5rem;
+    border-right: 1px solid var(--text-gray);
+    padding: 0 0.5rem 0 1rem;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+}
+
+#donations .infographic-container .inf-left .input-group input {
+    flex: 1;
+    margin-top: 0.15rem;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+}
+
+#donations .infographic-container .inf-left button {
+    color: var(--app-white);
+    background-color: var(--secondary);
+    text-decoration: none;
+    border: 0;
+
+    height: 2rem;
+    width: 98%;
+    border-radius: 0.5rem;
+
+    transition: 300ms;
+}
+
+#donations .infographic-container .inf-left button:hover {
+    background-color: var(--secondary-hover);
+    cursor: pointer;
+}
+
+#donations .infographic-container .inf-left .note {
+    color: var(--text-gray);
+}
+
+#donations .infographic-container .inf-right {
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+
+#donations .infographic-container .inf-right .inf-cont {
+    display: grid;
+}
+
+#donations .infographic-container .inf-right .inf-cont img {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 60%;
+    height: 60%;
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    transition: clip-path 2s ease;
+}
+
+#donations .infographic-container .inf-right .inf-cont #inf-full,
+#donations .infographic-container .inf-right .inf-cont #inf-emp {
+    width: inherit;
+    position: absolute;
+}
+
+#donations .infographic-container .inf-right .inf-cont #inf-full {
+    clip-path: inset(100% 0 0 0);
+}
+
+#donations .infographic-container .inf-right #inf-description {
+    text-align: left;
+    width: 100%;
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: 1.1rem;
+    align-self: flex-end;
+    justify-self: center;
+    margin-bottom: 6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#donations .infographic-container .inf-right #inf-description .inf-quantity-indicator {
+    color: var(--secondary);
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+#donations .infographic-container .inf-right #inf-description b {
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+#donations .ong-infos {
+    background: var(--background-two);
+    padding: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#donations .ong-infos h2 {
+    color: var(--secondary);
+    font-size: 1.7rem;
+    font-weight: 700;
+    align-self: center;
+}
+
+#donations .fast-donations {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+#donations .fast-donations .pix-donation,
+#donations .fast-donations .picpay-donation {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--text-black);
+}
+
+#donations .fast-donations .pix-donation h4,
+#donations .fast-donations .picpay-donation h4 {
+    color: var(--secondary);
+    margin: 0.8rem 0;
+    font-weight: 600;
+}
+
+#donations .fast-donations .picpay-donation span {
+    color: var(--secondary);
+    margin-top: 0.25rem;
+}
+
+#donations .other-donations .bank-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 ;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+#donations .other-donations .bank-info h3 {
+    color: var(--secondary);
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+#donations .phys-donations {
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+}
+
+#donations .phys-donations p b{
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+#actions {
+    background-color: var(--background-two);
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#actions h3 {
+    color: var(--text-black);
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    font-style: normal;
+
+    margin-left: var(--section-left-margin);
+    margin-top: 4rem;
+}
+
+#actions .categories-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 40%;
+}
+
+#actions .categories-container .category-card {
+    width: 15%;
+    height: 90%;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-color: var(--primary);
+    box-shadow: -4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#actions .categories-container .category-card.selected {
+    background-color: var(--primary-hover);
+}
+
+#actions .categories-container .category-card .category-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+}
+
+#actions .actions-main-container {
+    justify-self: flex-end;
+    flex: 1;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#actions .actions-container {
+    background-color: var(--background-one);
+    border-radius: 2.5rem;
+    width: 80%;
+    height: 55%;
+}
+
+#actions .actions-container .empty-category {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actions .actions-container .empty-category-warning {
+    color: var(--text-black);
+    font-size: 1.2rem;
+}
+
+#updates {
+    background-color: var(--background-one);
+    width: 100vw;
+    height: 100vh;
+    padding-left: var(--section-left-margin);
+    display: flex;
+    flex-direction: column;
+}
+
+#updates h3 {
+    color: var(--text-black);
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+#updates .updates-container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+
+    padding-right: 4rem;
+}
+
+#updates .updates-container .update-card {
+    width: 14rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    box-shadow: -4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+
+#updates .updates-container .update-card .update-img {
+    width: 100%;
+    height: 70%;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    background: var(--secondary);
+}
+
+#updates .updates-container .update-card .update-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#updates .updates-container .update-card .update-title {
+    width: 100%;
+    height: 30%;
+    background: var(--secondary);
+    border-radius: 0 0 1rem 1rem;
+    color: var(--app-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* #updates .updates-container .update-card {
+    width: 14rem;
+    height: 16.5rem;
+    background-color: var(--secondary);
+    box-shadow: -4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#updates .updates-container .update-card .update-title {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#updates .updates-container .update-card p {
+    color: var(--app-white);
+    text-align: center;
+    font-size: 1rem;
+}
+
+#updates .updates-container .update-card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 1.5rem;
+    object-fit: cover;
+} */
+
+#volunteer {
+    background-color: var(--background-two);
+    width: 100vw;
+    height: 160vh;
+    padding-left: var(--section-left-margin);
+    display: flex;
+    flex-direction: column;
+}
+
+#volunteer .intro {
+    padding-top: 4rem;
+    width: 80%;
+    height: 30%;
+    margin-bottom: 1rem;
+}
+
+#volunteer .intro h3 {
+    width: 60%;
+    color: var(--text-black);
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#volunteer .intro p {
+    width: 65%;
+    margin-bottom: 1.3rem;
+}
+
+#volunteer .volunteer-container {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#volunteer .volunteer-container .volunteer-profiles {
+    background: var(--background-one);
+    display: flex;
+    height: 45%;
+    width: 100%;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+#volunteer .volunteer-container .volunteer-profiles .profile-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-right: 1px solid var(--background-two);
+    padding: 0 3rem;
+    border-width: 0.2rem;
+    height: 80%;
+    justify-content: space-around;
+}
+
+#volunteer .volunteer-container .volunteer-profiles .profile-container:last-child {
+    border-right:0;
+}
+
+#volunteer .volunteer-container .volunteer-profiles .profile-container .volunteer-card:last-child {
+    margin-top: 2.5rem;
+}
+
+#volunteer .volunteer-container .volunteer-profiles .volunteer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#volunteer .volunteer-container .volunteer-profiles .volunteer-card p {
+    color: var(--primary);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+#volunteer .volunteer-container form {
+    margin-top: 2.5rem;
+    background: var(--secondary);
+    align-self: center;
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+
+    transition: 300ms;
+    box-shadow: -4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#volunteer .volunteer-container form>button {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#volunteer .volunteer-container form:hover {
+    background: var(--secondary-hover);
+    cursor: pointer;
+}
