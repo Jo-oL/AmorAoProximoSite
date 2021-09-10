@@ -79,7 +79,7 @@
 }
 
 .quadro {
-  
+    -webkit-zoom: 125%;
     -moz-zoom: 125%;
     zoom: 125%;
     overflow: hidden;
