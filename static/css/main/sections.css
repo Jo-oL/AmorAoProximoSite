@@ -70,6 +70,7 @@
 
 
 .cont {
+
     display: flex;
     width: 300vw;
     overflow: hidden;
@@ -77,6 +78,9 @@
 }
 
 .quadro {
+  
+
+
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -118,6 +122,7 @@
 }
 
 .q1 .history-right {
+    zoom: 125%;
     flex:1;
     width: 45vw;
     height: 100%;
@@ -139,11 +144,13 @@
 }
 
 .q2{
+
     width: 100vw;
     padding-bottom: 2rem;
 }
 
 .q2 .image1 h3{
+    
     flex: 1;
     color: var(--text-black);
     font-weight: bold;
@@ -154,6 +161,7 @@
 }
 
 .q2 .card-image1{
+    zoom: 125%;
     background-color: var(--background-one);
     border-radius: 0.8rem;
     width: 18rem;
@@ -176,6 +184,7 @@
 }
 
 .q2 .card-image2{
+    zoom: 125%;
     background-color: var(--background-one);
     border-radius: 0.8rem;
     width: 20rem;
@@ -202,6 +211,7 @@
 }
 
 .q2 .card-image3{
+    zoom: 125%;
     background-color: var(--background-one);
     border-radius: 0.8rem;
     width: 25rem;
@@ -232,6 +242,7 @@
 }
 
 .q3 .card-image4{
+    zoom: 125%;
     background-color: var(--background-one);
     border-radius: 0.8rem;
     width: 18rem;
@@ -253,6 +264,7 @@
 }
 
 .q3 .card-image5{
+    zoom: 125%;
     background-color: var(--background-one);
     border-radius: 0.8rem;
     width: 27rem;
@@ -280,6 +292,7 @@
 }
 
 .q3 .card-image6{
+    zoom: 125%;
     background-color: var(--background-one);
     border-radius: 0.8rem;
     width: 20rem;
